@@ -16,7 +16,9 @@ spec:
     spec:
       containers:
       - name: php-redis
-        image: dirkcgrunwald/python-redis:v1
+        # image: tgwalker93/python-redis:v1
+        # image: kammana/python-redis
+        image: tgwalker93/guestbook
         resources:
           requests:
             cpu: 100m
